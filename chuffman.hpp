@@ -1,3 +1,8 @@
+
+/*
+	Author : Dimitris Vlachos (DimitrisV22@gmail.com @ github.com/DimitrisVlachos)
+*/
+
 #ifndef __chuffman_hpp__
 #define __chuffman_hpp__
 #include "bit_streams.hpp"
