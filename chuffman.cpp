@@ -1,3 +1,8 @@
+
+/*
+	Author : Dimitris Vlachos (DimitrisV22@gmail.com @ github.com/DimitrisVlachos)
+*/
+
 #include "chuffman.hpp"
 
 namespace chuffman_private {
