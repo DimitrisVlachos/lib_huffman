@@ -1,4 +1,3 @@
-
 //Simple example without I/O optimizations(ie buffered IO)
 //Requires my lib_bitstreams :
 //https://github.com/DimitrisVlachos/lib_bitstreams
@@ -67,7 +66,7 @@ void test_lib_huff(const char* fn) {
 }
 
 int main() {
-	test_lib_huff("chuffman.cpp");
+	test_lib_huff("chuffman.hpp");
 	return 0;
 }
 
