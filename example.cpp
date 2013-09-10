@@ -6,9 +6,9 @@
 #include "chuffman.hpp"
 
 void test_lib_huff(const char* fn) {
-	bit_streams::bit_stream_writer_c out;
-	bit_streams::bit_stream_reader_c in;
-	huffman_c huff;
+	bit_streams::bit_stream_writer_c<file_streams::file_stream_writer_c> out;
+	bit_streams::bit_stream_reader_c<file_streams::file_stream_reader_c> in;
+	huffman_c<file_streams::file_stream_reader_c,file_streams::file_stream_writer_c> huff;
  	file_streams::file_stream_if* rd,*wr;
 	std::vector<uint64_t> freq;
 	
@@ -70,5 +70,4 @@ int main() {
 	test_lib_huff("chuffman.cpp");
 	return 0;
 }
-
 
